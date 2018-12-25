@@ -1,0 +1,63 @@
+/* page5 */
+.page5 img:nth-child(1){
+    position: absolute;
+    width: 130%;
+    left: -12%;
+    bottom: -90%;
+    animation: page5-1 0.7s ease-out 0.1s  forwards;
+  }
+  @keyframes page5-1{
+    
+      0% {
+        bottom: -90%;
+        opacity: 1;
+      }
+    
+      100% {
+        bottom: -7%;
+        opacity: 1;
+      }
+   
+  }
+  .page5 img:nth-child(2){
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 20%;
+    opacity: 0;
+    animation: page5-2 0.7s ease-out 0.1s  forwards;
+  }
+  @keyframes page5-2{
+    
+    0% {
+      transform: scale(0.1);
+      opacity: 1;
+    }
+    75%{
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  .page5 img:nth-child(3){
+    position: absolute;
+    width: 80%;
+    bottom:-58%;
+    left: 10%;
+    animation: page5-3 0.7s ease-out 0.1s   forwards;
+  }
+  @keyframes page5-3{
+    
+    0% {
+      bottom: -50%;
+      opacity: 1;
+    }
+  
+    100% {
+      bottom: 8%;
+      opacity: 1;
+    }
+  }

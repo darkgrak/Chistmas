@@ -1,0 +1,120 @@
+
+/* 第四个页面 */
+.page4 img:nth-child(1){
+    position: absolute;
+    width: 100%;
+    bottom: 6%;
+    animation: page4-1 0.5s ease-in-out 0.1s  forwards;
+  }
+  @keyframes page4-1 {
+    0% {
+     bottom: 0%;
+     opacity: 1;
+    }
+  
+    100% {
+      bottom:6%;
+      opacity: 1;
+    }
+  }
+  .page4 img:nth-child(2){
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    animation: page4-2 0.5s ease-in-out 0.3s  forwards;
+  }
+  @keyframes page4-1 {
+    0% {
+     bottom: 0%;
+     opacity: 1;
+    }
+  
+    100% {
+      bottom:5%;
+      opacity: 1;
+    }
+  }
+  .page4 img:nth-child(3){
+    position: absolute;
+    width: 150%;
+    animation: page4-6 0.9s ease-in-out 1.8s forwards;
+  }
+  @keyframes page4-6 {
+    0% {
+     top: -100%;
+     opacity: 1;
+    }
+  
+    100% {
+     top:0%;
+     opacity: 1;
+    }
+  }
+  .page4 img:nth-child(4){
+    position: absolute;
+    width: 60%;
+    top:13%;
+    left: 16%;
+    z-index: 2;
+    opacity: 0;
+    animation: page4-5 0.7s ease-out 1.5s forwards;
+  }
+  @keyframes page4-5 {
+    0% {
+      transform: scale(1.8);
+      opacity: 0.8;
+      z-index: 9;
+    }
+  
+    100% {
+    transform: scale(1);
+      opacity: 1;
+      z-index: 9;
+    }
+  }
+  .page4 img:nth-child(5){
+    position: absolute;
+    width: 70%;
+    right: -45%;
+    top: 49%;
+    animation: page4-3 0.7s ease-in-out 0.7s  forwards;
+   }
+   @keyframes page4-3 {
+    0% {
+    right: -80%;
+    opacity: 1;
+    }
+  
+    100% {
+      right:15%;
+      opacity: 1;
+    }
+  }
+  .page4 img:nth-child(6){
+    position: absolute;
+    width: 90%;
+    top:5%;
+    right: 5%;
+    animation: page4-4 0.8s ease-in-out 1.2s forwards;
+  }
+  @keyframes page4-4{
+    0% {
+    right: -90%;
+    transform: rotate(-270deg);
+    opacity: 1;
+    }
+  
+    100% {
+      right:5%;
+      transform: rotate(-360deg);
+      opacity: 1;
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  }

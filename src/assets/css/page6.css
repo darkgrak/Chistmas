@@ -1,0 +1,125 @@
+
+/* page6 */
+.page6 img:nth-child(1){
+    position: absolute;
+    width: 80%;
+    top: 70%;
+    left: -80%;
+    animation: page6-1 0.7s ease-out 0.1s   forwards;
+  }
+  @keyframes page6-1{
+    
+    0% {
+      left:-80%;
+      opacity: 1;
+    }
+  
+    100% {
+      left: 0%;
+      opacity: 1;
+    }
+  }
+  .page6 img:nth-child(2){
+    position: absolute;
+    width: 70%;
+    top: 59%;
+    left: 30%;
+    opacity: 0;
+    animation: page6-2 0.7s ease-out 0.5s  forwards;
+  }
+  @keyframes page6-2{
+    
+    0% {
+      transform: scale(0.1);
+      opacity: 1;
+    }
+    75%{
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  .page6 img:nth-child(3){
+    position: absolute;
+    width: 80%;
+    top:18%;
+    left: 10%;
+    opacity: 0;
+    animation: page6-3 0.7s ease-out 0.8s  forwards;
+  }
+  @keyframes page6-3{
+    
+    0% {
+      transform:rotate(0deg);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: rotate(180deg);
+      opacity: 1;
+    }
+  }
+  .page6 img:nth-child(4){
+    position: absolute;
+    width: 66%;
+    right:-65%;
+    top: 22%;
+    animation: page6-4 0.7s ease-out 1s forwards;
+  }
+  @keyframes page6-4{
+    
+    0% {
+      right: -65%;
+      opacity: 1;
+    }
+  
+    100% {
+     right: 17%;
+     opacity: 1;
+    }
+  }
+  .page6 img:nth-child(5){
+    position: absolute;
+    width: 54%;
+    top: 25%;
+    left: 23%;
+    opacity: 0;
+    animation: page6-5 0.7s ease-out 1.4s forwards;
+  }
+  @keyframes page6-5{
+    
+    0% {
+      transform:scale(0.1);
+      opacity: 1;
+    }
+    75%{
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  .page6 img:nth-child(6){
+    position: absolute;
+    width: 40%;
+    top:2%;
+    left: -2%;
+    animation: page6-6 0.7s ease-out 0.1s forwards;
+  }
+  @keyframes page6-6{
+    
+    0% {
+      left: -40%;
+      opacity: 1;
+    }
+   
+    100% {
+      left: -2%;
+      opacity: 1;
+    }
+  }
